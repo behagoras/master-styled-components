@@ -19,10 +19,9 @@ const Title = styled.h2`
 `;
 
 const About = () => (
-  <Container>
-    <Title>About</Title>
-    <Paragraph>Lorem iParagraphsum dolor sit amet consectetur adipisicing elit. Quo iusto unde doloribus molestias quia voluptate ullam explicabo dolorem omnis illo. Enim quos ex, voluptas labore sit recusandae eum nostrum aliquid!</Paragraph>
-  </Container>
+  <div>
+    <h2>About</h2>
+  </div>
 
 );
 export default About;
