@@ -2,6 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+const Element = styled.div`
+  display: inline;
+  color:blue;
+  background:red;
+`;
+
 const Container = styled.nav`
   display:flex;
   justify-content:center;
@@ -29,6 +35,7 @@ const MyLink = styled(Link)`
 const Header = () => {
   return (
     <Container>
+      <Container />
       <List>
         <MenuElement>
           <MyLink to="/">Home</MyLink>
