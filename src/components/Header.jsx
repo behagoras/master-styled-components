@@ -2,12 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const Element = styled.div`
-  display: inline;
-  color:blue;
-  background:red;
-`;
-
 const Container = styled.nav`
   display:flex;
   justify-content:center;
